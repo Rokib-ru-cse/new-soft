@@ -12,6 +12,12 @@ void divided(int data_1,int data_2)
         divided = data_1/data_2;
         cout<<data_1<<" / "<<data_2<<" = "<<divided<<endl;
 }
+void multiplication(int data_1,int data_2)
+{
+    int mulvalue;
+    mulvalue =  data_1*data_2;
+    cout<<data_1<<" * "<<data_2<<" = "<<mulvalue<<endl;
+}
 void subtract(int data_1,int data_2)
 {
     int sub;
@@ -28,6 +34,7 @@ int main()
 	cin>>value2;
 	subtract(value1,value2);
 	divided(value1,value2);
-	sum(value1,value2);
-	return 0;
+  sum(value1,value2);
+	multiplication(value1,value2);
+  return 0;
 }
