@@ -8,9 +8,9 @@ void divided(int data_1,int data_2)
 }
 void multiplication(int data_1,int data_2)
 {
-    int mul_value;
-    mul_value =  data_1*data_2;
-    cout<<data_1<<" * "<<data_2<<" = "<<mul_value<<endl;
+    int mulvalue;
+    mulvalue =  data_1*data_2;
+    cout<<data_1<<" * "<<data_2<<" = "<<mulvalue<<endl;
 }
 void subtract(int data_1,int data_2)
 {
