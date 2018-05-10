@@ -25,6 +25,11 @@ void subtract(int data_1,int data_2)
     cout<<data_1 << " - " << data_2 <<" = "<< sub << endl;
 
 }
+void Modulas(int number,int divider){
+    int mod;
+    mod=number%divider;
+    cout<<number<<" % "<<divider<<" = "<<mod<<endl;
+}
 int main()
 {
 	int value1,value2;
@@ -36,5 +41,6 @@ int main()
 	divided(value1,value2);
   sum(value1,value2);
 	multiplication(value1,value2);
+	Modulas(value1,value2);
   return 0;
 }
