@@ -1,5 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
+void sum(int data_1,int data_2)
+{
+      int  sum;
+      sum=data_1+data_2;
+      cout<<data_1<<" + "<<data_2<<" = "<<sum<<endl;
+}
 void divided(int data_1,int data_2)
 {
         int divided;
@@ -22,5 +28,6 @@ int main()
 	cin>>value2;
 	subtract(value1,value2);
 	divided(value1,value2);
+	sum(value1,value2);
 	return 0;
 }
